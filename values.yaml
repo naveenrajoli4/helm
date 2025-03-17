@@ -1,5 +1,5 @@
 deployment:
   replicas: 2
-  imageversion: stable-perl
+  imageversion: 1.2
 service:
   nodeport: 30007

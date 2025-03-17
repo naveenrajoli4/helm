@@ -20,6 +20,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: nginx:{{ .Values.deployment.imageversion }}
+        image: naveenrajoli/frontend:{{ .Values.deployment.imageversion }}
         ports:
         - containerPort: 80
