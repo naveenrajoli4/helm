@@ -1,5 +1,5 @@
 deployment:
   replicas: 2
-  imageversion: 1.2
+  imageversion: mainline-bookworm-perl
 service:
   nodeport: 30007
